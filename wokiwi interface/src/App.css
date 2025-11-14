@@ -1,0 +1,13 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.containerStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.deusSoMeLeva{
+  text-align: center;
+}
