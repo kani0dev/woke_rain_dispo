@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css'
 // === CONFIGURAÇÕES DO ADAFRUIT IO ===
-const AIO_USERNAME = "kani0dev";
-const AIO_KEY = "aio_fbQZ99zlWA71d253dU2nWgFw8KL0"; 
-const FEED_KEY = "umidade";
+// const AIO_USERNAME = "kani0dev";
+// const AIO_KEY = "aio_fbQZ99zlWA71d253dU2nWgFw8KL0"; 
+// const FEED_KEY = "umidade";
 
 const API_URL = `https://io.adafruit.com/api/v2/${AIO_USERNAME}/feeds/${FEED_KEY}/data/last`;
 
